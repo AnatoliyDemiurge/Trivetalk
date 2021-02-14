@@ -16,8 +16,14 @@ html{
     body{
         font-family: 'Oswald', sans-serif;
         .start{
+            height: auto;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            background-color:#F4F9E2;
             .header{
-                margin:27px 0px 187px 0px;
+                margin:0px 0px 187px 0px;
+                padding-top:27px;
                 .header__wrapper{
                     max-width:1118px;
                     margin:0 auto;
@@ -47,7 +53,7 @@ html{
                         }
                     }
                     .header__contactUs{
-                        z-index:999;
+                        z-index:2;
                         background: #62D0DF;
                         border-radius: 50px;
                         padding:20px 30px;
@@ -67,6 +73,7 @@ html{
                     margin:0 auto;
                     max-width:1118px;
                     .intro__content{
+                        max-width:526px;
                         .intro__logo{
                             margin-bottom:40px;
                             display:block;
@@ -90,13 +97,23 @@ html{
                         }
                     }
                     .intro__blue{
+                        width: 55.5vw; /* 807px; */
+                        height: 32vw; /* 540px; */
+                        transform: rotate(-60deg);
+                        position: absolute;
+                        top:2vw;
+                        left: 55vw; /*800px*/
+                        background-color: #EDFDFF;
+                        border-radius: 55vw; /* 312.159px; */
+                        z-index:1;
+                    }
+                    .intro__white{
+                        width:15vw;
+                        height:20vw;
+                        background-color:white;
                         position:absolute;
-                        height:30vw;
-                        width:30vw;
-                        background: #EDFDFF;
                         right:0;
-                        top:0
-                        // transform:rotate(60deg);
+                        top:21vw;
                     }
                 }
             }
