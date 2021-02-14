@@ -92,6 +92,13 @@ html body .start .header .header__wrapper .header__contactUs .header__link-conta
 html body .start .intro .intro__wrapper {
   margin: 0 auto;
   max-width: 1118px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 html body .start .intro .intro__wrapper .intro__content {
@@ -139,14 +146,5 @@ html body .start .intro .intro__wrapper .intro__blue {
   border-radius: 55vw;
   /* 312.159px; */
   z-index: 1;
-}
-
-html body .start .intro .intro__wrapper .intro__white {
-  width: 15vw;
-  height: 20vw;
-  background-color: white;
-  position: absolute;
-  right: 0;
-  top: 21vw;
 }
 /*# sourceMappingURL=style.css.map */

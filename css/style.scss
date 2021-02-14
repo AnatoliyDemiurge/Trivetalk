@@ -72,6 +72,9 @@ html{
                 .intro__wrapper{
                     margin:0 auto;
                     max-width:1118px;
+                    display:flex;
+                    overflow:hidden;
+                    justify-content: space-between;
                     .intro__content{
                         max-width:526px;
                         .intro__logo{
@@ -106,14 +109,6 @@ html{
                         background-color: #EDFDFF;
                         border-radius: 55vw; /* 312.159px; */
                         z-index:1;
-                    }
-                    .intro__white{
-                        width:15vw;
-                        height:20vw;
-                        background-color:white;
-                        position:absolute;
-                        right:0;
-                        top:21vw;
                     }
                 }
             }
