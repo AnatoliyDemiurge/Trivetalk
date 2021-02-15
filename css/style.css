@@ -164,4 +164,31 @@ html body .start .intro .intro__wrapper .intro__pic {
   width: 100%;
   background-size: cover;
 }
+
+html body .main .why .why__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .main .why .why__wrapper .why__content {
+  background: #62D0DF;
+}
+
+html body .main .why .why__wrapper .why__content .why__title {
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+  color: white;
+}
+
+html body .main .why .why__wrapper .why__content .why__text {
+  color: white;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+html body .main .why .why__wrapper .why__photo .why__pic {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
