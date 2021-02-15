@@ -69,46 +69,63 @@ html{
                 }
             }
             .intro{
+                margin-bottom:80px;
                 .intro__wrapper{
                     margin:0 auto;
                     max-width:1118px;
                     display:flex;
                     overflow:hidden;
-                    justify-content: space-between;
+                    justify-content: space-evenly;
                     .intro__content{
-                        max-width:526px;
+                        max-width:484px;
                         .intro__logo{
                             margin-bottom:40px;
                             display:block;
                         }
                         .intro__title{
+                            max-width:380px;
                             font-size: 48px;
                             line-height: 53px;
                             letter-spacing: -0.035em;
                             color: #22356F;
+                            margin-bottom:38px;
                         }
                         .intro__text{
                             font-size: 24px;
                             line-height: 42px;
                             color: #22356F;
+                            margin-bottom:63px;
                         }
                         .intro__Iam{
                             padding:10px 30px;
+                            background: #F9B640;
+                            border:0px;
+                            margin-right:18px;
+                            .intro__link{
+                                color:white;
+                                font-size: 16px;
+                                line-height: 23px;
+                                text-decoration:none;
+                                font-weight:700;
+                            }
                         }
                         .intro__Ido{
                             padding:10px 30px;
+                            border:0px;
+                            background-color:#F4F9E2;
+                            .intro__link{
+                                font-size: 16px;
+                                line-height: 23px;
+                                text-decoration:none;
+                                color:#FAB63E;
+                                font-weight:700;
+                            }
                         }
                     }
-                    .intro__blue{
-                        width: 55.5vw; /* 807px; */
-                        height: 32vw; /* 540px; */
-                        transform: rotate(-60deg);
-                        position: absolute;
-                        top:2vw;
-                        left: 55vw; /*800px*/
-                        background-color: #EDFDFF;
-                        border-radius: 55vw; /* 312.159px; */
-                        z-index:1;
+                    .intro__pic{
+                        height:500px;
+                        width:100%;
+                        background-size:cover;
                     }
                 }
             }

@@ -89,6 +89,10 @@ html body .start .header .header__wrapper .header__contactUs .header__link-conta
   color: white;
 }
 
+html body .start .intro {
+  margin-bottom: 80px;
+}
+
 html body .start .intro .intro__wrapper {
   margin: 0 auto;
   max-width: 1118px;
@@ -96,13 +100,13 @@ html body .start .intro .intro__wrapper {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 html body .start .intro .intro__wrapper .intro__content {
-  max-width: 526px;
+  max-width: 484px;
 }
 
 html body .start .intro .intro__wrapper .intro__content .intro__logo {
@@ -111,40 +115,53 @@ html body .start .intro .intro__wrapper .intro__content .intro__logo {
 }
 
 html body .start .intro .intro__wrapper .intro__content .intro__title {
+  max-width: 380px;
   font-size: 48px;
   line-height: 53px;
   letter-spacing: -0.035em;
   color: #22356F;
+  margin-bottom: 38px;
 }
 
 html body .start .intro .intro__wrapper .intro__content .intro__text {
   font-size: 24px;
   line-height: 42px;
   color: #22356F;
+  margin-bottom: 63px;
 }
 
 html body .start .intro .intro__wrapper .intro__content .intro__Iam {
   padding: 10px 30px;
+  background: #F9B640;
+  border: 0px;
+  margin-right: 18px;
+}
+
+html body .start .intro .intro__wrapper .intro__content .intro__Iam .intro__link {
+  color: white;
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 html body .start .intro .intro__wrapper .intro__content .intro__Ido {
   padding: 10px 30px;
+  border: 0px;
+  background-color: #F4F9E2;
 }
 
-html body .start .intro .intro__wrapper .intro__blue {
-  width: 55.5vw;
-  /* 807px; */
-  height: 32vw;
-  /* 540px; */
-  -webkit-transform: rotate(-60deg);
-          transform: rotate(-60deg);
-  position: absolute;
-  top: 2vw;
-  left: 55vw;
-  /*800px*/
-  background-color: #EDFDFF;
-  border-radius: 55vw;
-  /* 312.159px; */
-  z-index: 1;
+html body .start .intro .intro__wrapper .intro__content .intro__Ido .intro__link {
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #FAB63E;
+  font-weight: 700;
+}
+
+html body .start .intro .intro__wrapper .intro__pic {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
